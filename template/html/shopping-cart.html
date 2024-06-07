@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/frontend/static/css/menu-bar.css">
+    <link rel="stylesheet" href="/frontend/static/css/shopping-cart.css">
+    <link rel="stylesheet" href="/frontend/static/css/footer-bar.css">
+    <link rel="icon" href="/frontend/static/icon/logo.ico" type="image/x-icon">
     <title>CARRITO</title>
 </head>
 <body>
@@ -26,7 +29,7 @@
                     </ul>
                 </li>
                 <li><a href="/frontend/template/html/about-us.html">SOMOS</a></li>
-                <li><a href="/frontend/template/html/contacts.html">CONTACTO</a></li>
+                <li><a href="/frontend/template/html/contacts.html">CONSULTA</a></li>
                 <li><a href="/frontend/template/html/store.html">TIENDA</a></li>
                 <li><a href="/frontend/template/html/favorite.html"><i class="fa-solid fa-heart"></i></a></li>
                 <li><a href="/frontend/template/html/shopping-cart.html"><i class="fa-solid fa-cart-shopping"></i></a></li>
@@ -35,5 +38,63 @@
             </ul>
         </nav>
     </header>
+    <main>
+        <div class="container-cart">
+            <h1>Carrito de Compra</h1>
+            <div class="cart-items">
+                <div class="cart-item">
+                    <img src="/frontend/static/img/ruana-2.png" alt="Producto 1">
+                    <div class="item-details">
+                        <h2>Producto 1</h2>
+                        <p>Cantidad: 1</p>
+                        <p>Precio: $50.00</p>
+                    </div>
+                </div>
+                <div class="cart-item">
+                    <img src="/frontend/static/img/ruana-5.png" alt="Producto 2">
+                    <div class="item-details">
+                        <h2>Producto 2</h2>
+                        <p>Cantidad: 2</p>
+                        <p>Precio: $75.00</p>
+                    </div>
+                </div>
+            </div>
+            <div class="total">
+                <h2>Total: $200.00</h2>
+            </div>
+            <div class="checkout">
+                <button>Pagar</button>
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-links">
+                <a href="/frontend/index.html">Inicio</a>
+                <a href="/frontend/template/html/news.html">Novedades</a>
+                <a href="/frontend/template/html/products.html">Productos</a>
+                <a href="/frontend/template/html/about-us.html">Somos</a>
+                <a href="/frontend/template/html/contacts.html">Consulta</a>
+                <a href="/frontend/template/html/store.html">Tienda</a>
+                <a href="/frontend/template/html/favorite.html">Favoritos</a>
+                <a href="/frontend/template/html/shopping-cart.html">Carrito</a>
+                <a href="/frontend/template/html/profile.html">Perfil</a>
+            </div>
+            <div class="footer-socials">
+                <a href="#"><i class="fab fa-facebook"></i> Facebook</a>
+                <a href="#"><i class="fab fa-twitter"></i> Twitter</a>
+                <a href="#"><i class="fab fa-instagram"></i> Instagram</a>
+                <a href="#"><i class="fab fa-linkedin"></i> LinkedIn</a>
+            </div>
+            <div class="footer-contact">
+                <p>Email: contacto@ejemplo.com</p>
+                <p>Teléfono: +123 456 789</p>
+                <p>Dirección: Calle Falsa 123, Ciudad, País</p>
+            </div>
+            <div class="footer-copyright">
+                &copy; 2024 Todos los derechos reservados.
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
